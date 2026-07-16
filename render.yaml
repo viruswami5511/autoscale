@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: autoscale
+    env: docker
+    repo: https://github.com/viruswami5511/autoscale
+    branch: main
+    healthCheckPath: /
+    autoDeploy: true
